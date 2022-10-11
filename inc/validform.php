@@ -36,15 +36,14 @@ $inputs['email'] = $email;
 
 
 <?php if (count($errors) === 0) : ?>
-    // print output
+    
     <section>
         <h2>
-            Thanks <?php echo htmlspecialchars($name) ?> for your subscription!
+            Thanks <?php echo htmlspecialchars($name) ?> for trying this out!
         </h2>
-        <p>Please follow the steps below to complete your subscription:</p>
+        <p>This your email:</p>
         <ol>
-            <li>Check your email (<?php echo htmlspecialchars($email) ?>) - Find the message sent from webmaster@phptutorial.net</li>
-            <li>Click to confirm - Click on the link in the email to confirm your subscription.</li>
+            <li>Your email (<?php echo htmlspecialchars($email) ?>) </li>
         </ol>
     </section>
 
